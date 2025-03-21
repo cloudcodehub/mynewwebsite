@@ -3,28 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="canonical" href="https://www.magarrahul.com.np" />
+    <link rel="preload" href="./logo.svg" as="image" />
+    <link rel="preload" href="./text.svg" as="image" />
 
+    <title>
+      Rahul Magar | Freelance Developer & Designer (React/Python/Node.js)
+    </title>
     <meta
       name="description"
-      content="Rahul Magar - A Developer and Designer providing professional services to companies of all sizes."
+      content="Rahul Magar - Professional freelance developer & designer specializing in web development, mobile apps, and UI/UX design. 6+ years experience in React, Python, and Node.js."
     />
+
+    <!-- Open Graph -->
     <meta
       property="og:title"
-      content="Freelancer Developer and Designer - Rahul Magar"
-      data-react-helmet="true"
+      content="Rahul Magar | Full-Stack Developer & Designer"
     />
-    <meta
-      property="og:description"
-      content="Rahul Magar - A Developer and Designer with years of experience in website design and web app development."
-      data-react-helmet="true"
-    />
-    <meta
-      name="keywords"
-      content="Magar Rahul, Rahul Magar, Developer, Designer, Freelance Developer, Freelance Designer"
-    />
-    <title>Rahul Magar - Developer and Designer</title>
-    <script type="module" crossorigin src="./assets/index-tQhnw6MM.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-DlLW0c5k.css">
+    <meta property="og:image" content="/preview-image.jpg" />
+    <meta property="og:url" content="https://www.magarrahul.com.np" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Rahul Magar | Developer & Designer" />
+    <script type="module" crossorigin src="./assets/index-CeM6z09h.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BNMwErIJ.css">
   </head>
 
   <body class="bg-[rgb(19,19,19)] h-screen w-full">
@@ -186,12 +189,17 @@
               id="mainText"
               class="transition-all text mt-8 sm:ml-4 lg:ml-10"
             >
-              <img
-                loading="lazy"
-                class="h-36 sm:h-48 lg:h-80"
-                src="./text.svg"
-                alt=""
-              />
+              <h1 class="sr-only">
+                Rahul Magar - Freelance Developer & Designer
+              </h1>
+              <div aria-hidden="true">
+                <img
+                  src="./text.svg"
+                  loading="lazy"
+                  class="h-36 sm:h-48 lg:h-80"
+                  alt="Rahul Magar - Developer and Designer"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -222,7 +230,8 @@
                 loading="lazy"
                 class="h-full w-full object-cover"
                 src="./ab.jpg"
-                alt="I M A G E"
+                alt="Rahul Magar working on web development project"
+                title="Rahul Magar - Professional Developer"
               />
             </div>
           </div>
@@ -234,10 +243,11 @@
             <div
               class="subtitle text-2xl uppercase w-10/12 font-medium text-start m-3 sm:pl-8 sm:m-0 sm:mb-4 sm:text-3xl md:text-5xl md:w-[70%] md:h-[25%] md:tracking-wide md:font-semibold"
             >
-              I Am A
-              <span class="text-[#8A6BE4]">Developer </span>
-              And A
-              <span class="text-[#69AEFF]">Designer </span>.
+              <h2 class="sr-only">About Rahul Magar</h2>
+              <h3>
+                Full-Stack <span class="text-[#8A6BE4]">Developer </span> &
+                UI/UX <span class="text-[#69AEFF]">Designer </span>
+              </h3>
             </div>
             <div
               class="description w-10/12 text-sm sm:pl-8 sm:text-lg md:text-2xl md:font-extralight md:w-[65%] md:h-[75%] md:tracking-wide md:pt-6"
@@ -975,5 +985,19 @@
         </div>
       </div>
     </main>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Rahul Magar",
+        "jobTitle": "Full-Stack Developer & Designer",
+        "skills": "React, Python, Node.js, UI/UX Design",
+        "url": "https://www.magarrahul.com.np",
+        "sameAs": [
+          "https://linkedin.com/in/rahulmagar",
+          "https://github.com/rahulmagar"
+        ]
+      }
+    </script>
   </body>
 </html>
